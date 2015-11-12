@@ -5,7 +5,7 @@ FILEDIR=/etc/puppet
 #FILEDIR=/usr/share/puppet
 
 # Required modules
-MODULES='puppetlabs-stdlib'
+MODULES='puppetlabs-apt puppet-nodejs initforthe-build_essential'
 
 if ! [ -w / ]
 then
@@ -67,6 +67,14 @@ if [ "$1" != '' ]
 then
 	usage
 fi
+
+# Comment out the following 5 source code lines if the setting is
+# in GRNET's synnefo.
+# Also discard the README notes and place this script in a cron job
+# run at boot time.
+# This process matches synnefo's image creator. Because the complete software
+# setting will already be in an available OS image, we only need to make Codebox
+# run once a newly created VM runs.
 
 # Setup puppet to work from the current directory
 rm -rf $FILEDIR/manifests
