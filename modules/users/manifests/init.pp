@@ -1,8 +1,13 @@
 class users {
+    $tushar = hiera('tushar')
+    $mfg    = hiera('mfg')
+    $dds    = hiera('dds')
+    $maria  = hiera('maria')
+    $panos  = hiera('panos')
     user {'tushar':
         ensure      => present,
         home        => '/home/tushar',
-        password    => '67tu12@#)(',
+        password    => $tushar,
         shell       => '/bin/bash',
         managehome  => true,
     }
@@ -10,7 +15,7 @@ class users {
     user {'mfg':
         ensure      => present,
         home        => '/home/mfg',
-        password    => 'hz$9u5lURmy',
+        password    => $mfg,
         shell       => '/bin/bash',
         managehome  => true,    
     }
@@ -18,7 +23,7 @@ class users {
     user {'dds':
         ensure      => present,
         home        => '/home/dds',
-        password    => 'S0XMcQjU2ynl06x',
+        password    => $dds,
         shell       => '/bin/bash',
         managehome  => true,
     }
@@ -26,7 +31,7 @@ class users {
     user {'maria':
         ensure      => present,
         home        => '/home/maria',
-        password    => 'ESJaHuxzuOya',
+        password    => $maria,
         shell       => '/bin/bash',
         managehome   => true,
     }
@@ -34,7 +39,7 @@ class users {
     user {'panos':
         ensure      => present,
         home        => '/home/panos',
-        password    => 'uOyaLGzoKSlB6s',
+        password    => $panos,
         shell       => '/bin/bash',
         managehome  => true,
     }
