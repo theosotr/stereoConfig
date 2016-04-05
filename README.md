@@ -7,7 +7,7 @@
 
 ##Hiera setup
 1. Copy hiera.yaml to /etc/
-2. Copy common.yaml to /etc/puppet/hieradata/
+2. Copy common.yaml to /etc/puppet/hieradata/ (It contains username and corresponding password for each user in key value form.)
 
 ##Clone config repo
 git clone git@github.com:tushartushar/stereoConfig.git
