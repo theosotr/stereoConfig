@@ -13,6 +13,6 @@
 git clone git@github.com:tushartushar/stereoConfig.git
 
 ##Apply puppet manifests
-cd stereoConfig/
-sudo ./run.sh >puppetLog.txt 2>puppetErr.txt
+- cd stereoConfig/
+- sudo ./run.sh >puppetLog.txt 2>puppetErr.txt
 
