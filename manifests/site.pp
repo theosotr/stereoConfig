@@ -4,4 +4,5 @@ node default {
 #  include ::convenience
   include ::allpackages
   include ::services
+  include ::grub
 }
