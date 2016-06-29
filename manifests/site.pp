@@ -5,4 +5,5 @@ node default {
   include ::allpackages
   include ::services
   include ::grub
+  include ::mysql
 }
