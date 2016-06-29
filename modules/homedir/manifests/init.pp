@@ -23,10 +23,28 @@ class homedir {
         require => User['maria'],
         mode    => '0744',
     }
-    file { "/home/panos":
+    file { "/home/louridas":
         ensure  => "directory",
-        owner   => "panos",
-        require => User['panos'],
+        owner   => "louridas",
+        require => User['louridas'],
+        mode    => '0744',
+    }
+    file { "/home/sgeorgiou":
+        ensure  => "directory",
+        owner   => "sgeorgiou",
+        require => User['sgeorgiou'],
+        mode    => '0744',
+    }
+    file { "/home/dimitro":
+        ensure  => "directory",
+        owner   => "dimitro",
+        require => User['dimitro'],
+        mode    => '0744',
+    }
+    file { "/home/vitsalis":
+        ensure  => "directory",
+        owner   => "vitsalis",
+        require => User['vitsalis'],
         mode    => '0744',
     }
 }
