@@ -256,7 +256,6 @@ class allpackages {
   package{'hostname': }
   package{'hp-ppd': }
   package{'hplip': }
-  package{'htop': }
   package{'hunspell-en-us': }
   package{'iamerican': }
   package{'ibritish': }
