@@ -1,14 +1,4 @@
 class allpackages {
-  package{'autoconf': }
-  package{'autoconf2.13': }
-  package{'automake': }
-  package{'autopoint': }
-  package{'autotools-dev': }
-  package{'avahi-daemon': }
-  package{'base-files': }
-  package{'base-passwd': }
-  package{'bash': }
-  package{'bash-completion': }
   package{'bc': }
   package{'bind9-host': }
   package{'binfmt-support': }

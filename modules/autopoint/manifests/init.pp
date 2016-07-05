@@ -1,0 +1,3 @@
+class autopoint {
+  package{'autopoint': }
+}

@@ -13,6 +13,14 @@ node default {
   include ::aspell
   include ::at
   include ::attr
+  include ::autoconf
+  include ::automake
+  include ::autopoint
+  include ::autotools-dev
+  include ::avahi-daemon
+  include ::base
+  include ::bash
+
   include ::perfmon
   include ::services
   include ::grub

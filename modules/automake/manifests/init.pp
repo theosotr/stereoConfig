@@ -1,0 +1,3 @@
+class automake {
+  package {'automake':}
+}
