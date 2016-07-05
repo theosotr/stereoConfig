@@ -12,6 +12,11 @@
 ##Clone config repo
 git clone git@github.com:tushartushar/stereoConfig.git
 
+##Check puppet manifests
+It is a good practice to confirm whether the catalog compiles without errors and what are the changes going to happen. You may use the following command for the same:
+- cd stereoConfig/
+- sudo ./run.sh --noop
+
 ##Apply puppet manifests
 - cd stereoConfig/
 - sudo ./run.sh >puppetLog.txt 2>puppetErr.txt
