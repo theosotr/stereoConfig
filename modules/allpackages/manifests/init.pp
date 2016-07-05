@@ -1,34 +1,4 @@
 class allpackages {
-  package{'acl': }
-  package{'acpi': }
-  package{'acpi-support-base': }
-  package{'acpid': }
-  package{'adduser': }
-  package{'adwaita-icon-theme': }
-  package{'akonadi-backend-mysql': }
-  package{'analog': }
-  package{'ant': }
-  package{'ant-optional': }
-  package{'apache2': }
-  package{'apache2-bin': }
-  package{'apache2-data': }
-  package{'apache2-doc': }
-  package{'apache2-mpm-worker': }
-  package{'apache2-utils': }
-  package{'apache2.2-bin': }
-  package{'apache2.2-common': }
-  package{'apt': }
-  package{'apt-listchanges': }
-  package{'apt-utils': }
-  package{'aptdaemon': }
-  package{'aptdaemon-data': }
-  package{'aptitude': }
-  package{'aptitude-common': }
-  package{'aspell': }
-  package{'aspell-en': }
-  package{'at': }
-  package{'at-spi2-core': }
-  package{'attr': }
   package{'autoconf': }
   package{'autoconf2.13': }
   package{'automake': }

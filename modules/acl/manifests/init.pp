@@ -1,0 +1,3 @@
+class acl {
+  package{'acl':}
+}

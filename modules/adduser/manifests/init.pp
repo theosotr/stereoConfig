@@ -1,0 +1,3 @@
+class adduser {
+  package{'adduser': }
+}
