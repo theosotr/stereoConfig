@@ -1,29 +1,14 @@
 class allpackages {
   package{'bc': }
-  package{'bind9-host': }
-  package{'binfmt-support': }
-  package{'binutils': }
-  package{'binutils-mingw-w64-i686': }
-  package{'binutils-mingw-w64-x86-64': }
   package{'bison': }
   package{'bridge-utils': }
-  package{'bsd-mailx': }
-  package{'bsdmainutils': }
-  package{'bsdutils': }
   package{'btyacc': }
   package{'build-essential': }
   package{'busybox': }
-  package{'bzip2': }
-  package{'bzip2-doc': }
-  package{'ca-certificates': }
-  package{'ca-certificates-java': }
-  #package{'ca-certificates-mono': }
   package{'ccache': }
   package{'cdbs': }
   package{'cifs-utils': }
   package{'cli-common': }
-  package{'colord': }
-  package{'colord-data': }
   package{'comerr-dev': }
   package{'console-setup': }
   package{'console-setup-linux': }

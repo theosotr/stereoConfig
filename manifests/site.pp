@@ -20,6 +20,11 @@ node default {
   include ::avahi-daemon
   include ::base
   include ::bash
+  include ::bin
+  include ::bsd
+  include ::bzip2
+  include ::ca-certificates
+  include ::colord
 
   include ::perfmon
   include ::services
