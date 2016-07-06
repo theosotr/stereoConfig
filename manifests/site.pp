@@ -25,6 +25,11 @@ node default {
   include ::bzip2
   include ::ca-certificates
   include ::colord
+  include ::console
+  include ::cpp
+  include ::cups
+  include ::dbus
+  include ::dconf
 
   include ::perfmon
   include ::services

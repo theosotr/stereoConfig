@@ -10,36 +10,14 @@ class allpackages {
   package{'cifs-utils': }
   package{'cli-common': }
   package{'comerr-dev': }
-  package{'console-setup': }
-  package{'console-setup-linux': }
-  package{'consolekit': }
   package{'coreutils': }
   package{'cpio': }
-  package{'cpp': }
-  #package{'cpp-4.6': }
-  #package{'cpp-4.7': }
-  package{'cpp-4.9': }
   package{'cron': }
   package{'cryptsetup-bin': }
-  package{'cups': }
-  package{'cups-browsed': }
-  package{'cups-bsd': }
-  package{'cups-client': }
-  package{'cups-common': }
-  package{'cups-core-drivers': }
-  package{'cups-daemon': }
-  package{'cups-filters': }
-  package{'cups-filters-core-drivers': }
-  package{'cups-ppdc': }
-  package{'cups-server-common': }
   package{'curl': }
   package{'dash': }
   package{'db5.1-util': }
-  package{'dbus': }
-  package{'dbus-x11': }
   package{'dc': }
-  package{'dconf-gsettings-backend': }
-  package{'dconf-service': }
   package{'debconf': }
   package{'debconf-i18n': }
   package{'debhelper': }
