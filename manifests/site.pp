@@ -1,4 +1,16 @@
 node default {
+  include ::libakonadi
+  include ::lib32
+  include ::krb5
+  include ::kde
+  include ::isc-dhcp
+  include ::iproute
+  include ::init
+  include ::icedtea
+  include ::imagemagick
+  include ::gvfs
+  include ::gstreamer
+  include ::groff
   include ::users
   include ::homedir
   include ::acl  
@@ -42,10 +54,20 @@ node default {
   include ::exim4
   include ::font
   include ::foomatic
-  include ::g++
-
+  include ::gpp
+  include ::gcc
+  include ::gconf
+  include ::gdb
+  include ::gettext
+  include ::gfortran
+  include ::gir
+  include ::git
+  include ::glib
+  include ::gnupg
   include ::perfmon
   include ::services
   include ::grub
   include ::mysql
+
+  include ::all-other-pkgs
 }
