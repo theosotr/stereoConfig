@@ -1,0 +1,28 @@
+class erlang{
+  package{'erlang-asn1': }
+  package{'erlang-base': }
+  package{'erlang-corba': }
+  package{'erlang-crypto': }
+  package{'erlang-diameter': }
+  package{'erlang-edoc': }
+  package{'erlang-eldap': }
+  package{'erlang-erl-docgen': }
+  package{'erlang-eunit': }
+  package{'erlang-ic': }
+  package{'erlang-inets': }
+  package{'erlang-mnesia': }
+  package{'erlang-nox': }
+  package{'erlang-odbc': }
+  package{'erlang-os-mon': }
+  package{'erlang-parsetools': }
+  package{'erlang-percept': }
+  package{'erlang-public-key': }
+  package{'erlang-runtime-tools': }
+  package{'erlang-snmp': }
+  package{'erlang-ssh': }
+  package{'erlang-ssl': }
+  package{'erlang-syntax-tools': }
+  package{'erlang-tools': }
+  package{'erlang-webtool': }
+  package{'erlang-xmerl': }
+}

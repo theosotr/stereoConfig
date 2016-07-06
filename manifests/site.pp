@@ -30,6 +30,19 @@ node default {
   include ::cups
   include ::dbus
   include ::dconf
+  include ::debconf
+  include ::debian
+  include ::discover
+  include ::dm
+  include ::doc
+  include ::dovecot
+  include ::dpkg
+  include ::e2fs
+  include ::erlang
+  include ::exim4
+  include ::font
+  include ::foomatic
+  include ::g++
 
   include ::perfmon
   include ::services

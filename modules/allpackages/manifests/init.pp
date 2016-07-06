@@ -18,69 +18,19 @@ class allpackages {
   package{'dash': }
   package{'db5.1-util': }
   package{'dc': }
-  package{'debconf': }
-  package{'debconf-i18n': }
   package{'debhelper': }
-  package{'debian-archive-keyring': }
-  package{'debian-faq': }
-  package{'debianutils': }
   package{'debootstrap': }
   package{'debugedit': }
   package{'desktop-file-utils': }
   package{'dh-python': }
   package{'dictionaries-common': }
   package{'diffutils': }
-  package{'discover': }
-  package{'discover-data': }
-  package{'dmeventd': }
-  package{'dmidecode': }
-  package{'dmsetup': }
   package{'dnsutils': }
-  package{'doc-debian': }
-  package{'docbook-xml': }
-  package{'docbook-xsl': }
   package{'dosfstools': }
-  package{'dovecot-core': }
-  package{'dovecot-imapd': }
-  package{'dovecot-pop3d': }
-  package{'dpkg': }
-  package{'dpkg-dev': }
-  package{'e2fslibs': }
-  package{'e2fsprogs': }
   package{'eject': }
   package{'emacsen-common': }
   package{'enchant': }
-  package{'erlang-asn1': }
-  package{'erlang-base': }
-  package{'erlang-corba': }
-  package{'erlang-crypto': }
-  package{'erlang-diameter': }
-  package{'erlang-edoc': }
-  package{'erlang-eldap': }
-  package{'erlang-erl-docgen': }
-  package{'erlang-eunit': }
-  package{'erlang-ic': }
-  package{'erlang-inets': }
-  package{'erlang-mnesia': }
-  package{'erlang-nox': }
-  package{'erlang-odbc': }
-  package{'erlang-os-mon': }
-  package{'erlang-parsetools': }
-  package{'erlang-percept': }
-  package{'erlang-public-key': }
-  package{'erlang-runtime-tools': }
-  package{'erlang-snmp': }
-  package{'erlang-ssh': }
-  package{'erlang-ssl': }
-  package{'erlang-syntax-tools': }
-  package{'erlang-tools': }
-  package{'erlang-webtool': }
-  package{'erlang-xmerl': }
   package{'ethtool': }
-  package{'exim4': }
-  package{'exim4-base': }
-  package{'exim4-config': }
-  package{'exim4-daemon-light': }
   package{'exuberant-ctags': }
   package{'fakeroot': }
   package{'file': }
@@ -88,16 +38,6 @@ class allpackages {
   package{'firefox': }
   package{'firmware-linux-free': }
   package{'flex': }
-  package{'fontconfig': }
-  package{'fontconfig-config': }
-  package{'fonts-dejavu-core': }
-  package{'fonts-dejavu-extra': }
-  package{'fonts-droid': }
-  package{'fonts-freefont-ttf': }
-  package{'fonts-liberation': }
-  package{'foomatic-db-compressed-ppds': }
-  package{'foomatic-db-engine': }
-  package{'foomatic-filters': }
   package{'ftp': }
   package{'fuse': }
   package{'g++': }
