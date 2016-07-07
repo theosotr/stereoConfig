@@ -1,4 +1,20 @@
 node default {
+  include ::xserver
+  include ::x11
+  include ::samba
+  include ::ruby
+  include ::r
+  include ::drivers
+  include ::postgresql
+  include ::php
+  include ::perl
+  include ::java
+  include ::xml
+  include ::python
+  include ::nunit
+  include ::mono
+  include ::libfreerdp
+  include ::libboost
   include ::libakonadi
   include ::lib32
   include ::krb5

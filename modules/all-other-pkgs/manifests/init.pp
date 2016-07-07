@@ -100,7 +100,6 @@ class all-other-pkgs {
   package{'libalgorithm-diff-perl': }
   package{'libalgorithm-diff-xs-perl': }
   package{'libalgorithm-merge-perl': }
-  #package{'libamd2.2.0': }
   package{'libamd2.3.1': }
   package{'libapache2-mod-xsendfile': }
   package{'libapr1': }
@@ -119,7 +118,6 @@ class all-other-pkgs {
   package{'libaspell15': }
   package{'libasprintf-dev': }
   package{'libasprintf0c2': }
-  #package{'libass4': }
   package{'libass5': }
   package{'libassuan0': }
   package{'libasyncns0': }
@@ -132,7 +130,6 @@ class all-other-pkgs {
   package{'libatm1': }
   package{'libatomic1': }
   package{'libatspi2.0-0': }
-  #package{'libattica0': }
   package{'libattica0.4': }
   package{'libattr1': }
   package{'libaudit-common': }
@@ -145,17 +142,11 @@ class all-other-pkgs {
   package{'libavahi-core7': }
   package{'libavahi-glib1': }
   package{'libavc1394-0': }
-  #package{'libavcodec53': }
   package{'libavcodec56': }
-  #package{'libavformat53': }
   package{'libavformat56': }
   package{'libavresample2': }
-  #package{'libavutil51': }
   package{'libavutil54': }
   package{'libbasicusageenvironment0': }
-  #package{'libbind9-80': }
-  package{'libbind9-90': }
-  package{'libbison-dev': }
   package{'libblas-common': }
   package{'libblas-dev': }
   package{'libblas3': }
@@ -166,48 +157,6 @@ class all-other-pkgs {
   package{'libbonobo2-common': }
   package{'libbonoboui2-0': }
   package{'libbonoboui2-common': }
-  package{'libboost-atomic1.55.0': }
-  #package{'libboost-chrono1.49.0': }
-  package{'libboost-chrono1.55.0': }
-  package{'libboost-context1.55.0': }
-  #package{'libboost-date-time1.49.0': }
-  package{'libboost-date-time1.55.0': }
-  #package{'libboost-filesystem1.49.0': }
-  package{'libboost-filesystem1.55.0': }
-  #package{'libboost-graph-parallel1.49.0': }
-  #package{'libboost-graph1.49.0': }
-  package{'libboost-graph1.55.0': }
-  #package{'libboost-iostreams1.49.0': }
-  package{'libboost-iostreams1.55.0': }
-  #package{'libboost-locale1.49.0': }
-  package{'libboost-locale1.55.0': }
-  package{'libboost-log1.55.0': }
-  #package{'libboost-math1.49.0': }
-  package{'libboost-math1.55.0': }
-  package{'libboost-mpi-python1.49.0': }
-  #package{'libboost-mpi1.49.0': }
-  #package{'libboost-program-options1.49.0': }
-  package{'libboost-program-options1.55.0': }
-  #package{'libboost-python1.49.0': }
-  package{'libboost-python1.55.0': }
-  #package{'libboost-random1.49.0': }
-  package{'libboost-random1.55.0': }
-  #package{'libboost-regex1.49.0': }
-  package{'libboost-regex1.55.0': }
-  #package{'libboost-serialization1.49.0': }
-  package{'libboost-serialization1.55.0': }
-  #package{'libboost-signals1.49.0': }
-  package{'libboost-signals1.55.0': }
-  #package{'libboost-system1.49.0': }
-  package{'libboost-system1.55.0': }
-  #package{'libboost-test1.49.0': }
-  package{'libboost-test1.55.0': }
-  #package{'libboost-thread1.49.0': }
-  package{'libboost-thread1.55.0': }
-  #package{'libboost-timer1.49.0': }
-  package{'libboost-timer1.55.0': }
-  #libboost-iostreams1.49.0package{'libboost-wave1.49.0': }
-  package{'libboost-wave1.55.0': }
   package{'libbrlapi0.6': }
   package{'libbsd0': }
   package{'libbz2-1.0': }
@@ -245,9 +194,7 @@ class all-other-pkgs {
   package{'libcln6': }
   package{'libcloog-isl4': }
   package{'libclucene-core1': }
-  #package{'libclucene0ldbl': }
   package{'libcolamd2.8.0': }
-  #package{'libcolord1': }
   package{'libcolord2': }
   package{'libcolorhug2': }
   package{'libcomerr2': }
@@ -260,7 +207,6 @@ class all-other-pkgs {
   package{'libcrystalhd3': }
   package{'libcups2': }
   package{'libcupscgi1': }
-  #package{'libcupsdriver1': }
   package{'libcupsfilters1': }
   package{'libcupsimage2': }
   package{'libcupsmime1': }
@@ -275,7 +221,6 @@ class all-other-pkgs {
   package{'libdata-validate-ip-perl': }
   package{'libdata-validate-uri-perl': }
   package{'libdatrie1': }
-  package{'libdb5.1': }
   package{'libdb5.3': }
   package{'libdbd-mysql-perl': }
   package{'libdbi-perl': }
@@ -301,22 +246,18 @@ class all-other-pkgs {
   package{'libdmtx0a': }
   package{'libdns-export100': }
   package{'libdns100': }
-  #package{'libdns88': }
   package{'libdpkg-perl': }
   package{'libdrm-dev': }
   package{'libdrm-intel1': }
-  #package{'libdrm-nouveau1a': }
   package{'libdrm-nouveau2': }
   package{'libdrm-radeon1': }
   package{'libdrm2': }
   package{'libdsdp-5.8gf': }
   package{'libdv4': }
-  #package{'libdvbpsi7': }
   package{'libdvbpsi9': }
   package{'libdvdnav4': }
   package{'libdvdread4': }
   package{'libdw1': }
-  #package{'libebml3': }
   package{'libebml4': }
   package{'libedit2': }
   package{'libegl1-mesa': }
@@ -334,7 +275,6 @@ class all-other-pkgs {
   package{'libevdev2': }
   package{'libevent-2.0-5': }
   package{'libexif12': }
-  #package{'libexiv2-12': }
   package{'libexiv2-13': }
   package{'libexpat1': }
   package{'libexpat1-dev': }
@@ -344,7 +284,6 @@ class all-other-pkgs {
   package{'libfam0': }
   package{'libfcgi-perl': }
   package{'libfdt1': }
-  #package{'libffi5': }
   package{'libffi6': }
   package{'libfftw3-double3': }
   package{'libfile-basedir-perl': }
@@ -361,17 +300,6 @@ class all-other-pkgs {
   package{'libfontconfig1': }
   package{'libfontembed1': }
   package{'libfontenc1': }
-  package{'libfreerdp-cache1.1': }
-  package{'libfreerdp-client1.1': }
-  package{'libfreerdp-codec1.1': }
-  package{'libfreerdp-common1.1.0': }
-  package{'libfreerdp-core1.1': }
-  package{'libfreerdp-crypto1.1': }
-  package{'libfreerdp-gdi1.1': }
-  package{'libfreerdp-locale1.1': }
-  package{'libfreerdp-primitives1.1': }
-  package{'libfreerdp-rail1.1': }
-  package{'libfreerdp-utils1.1': }
   package{'libfreetype6': }
   package{'libfreetype6-dev': }
   package{'libfribidi0': }
@@ -381,15 +309,12 @@ class all-other-pkgs {
   package{'libgamin0': }
   package{'libgbm1': }
   package{'libgc1c2': }
-  #package{'libgcc-4.7-dev': }
   package{'libgcc-4.9-dev': }
   package{'libgcc1': }
   package{'libgconf-2-4': }
   package{'libgconf2-4': }
-  #package{'libgcrypt11': }
   package{'libgcrypt20': }
   package{'libgcrypt20-dev': }
-  #package{'libgd2-xpm': }
   package{'libgd3': }
   package{'libgdbm3': }
   package{'libgdiplus': }
@@ -437,21 +362,16 @@ class all-other-pkgs {
   package{'libgnomevfs2-extra': }
   package{'libgnutls-deb0-28': }
   package{'libgnutls-openssl27': }
-  #package{'libgnutls26': }
   package{'libgnutls28-dev': }
-  #package{'libgnutlsxx27': }
   package{'libgnutlsxx28': }
   package{'libgomp1': }
   package{'libgpg-error-dev': }
   package{'libgpg-error0': }
   package{'libgpgme++2': }
   package{'libgpgme11': }
-  package{'libgphoto2-2': }
   package{'libgphoto2-6': }
-  #package{'libgphoto2-port0': }
   package{'libgphoto2-port10': }
   package{'libgpm2': }
-  #package{'libgps20': }
   package{'libgps21': }
   package{'libgraph-perl': }
   package{'libgraphite2-3': }
@@ -464,10 +384,6 @@ class all-other-pkgs {
   package{'libgssapi3-heimdal': }
   package{'libgssglue1': }
   package{'libgssrpc4': }
-  package{'libgstreamer-plugins-base0.10-0': }
-  package{'libgstreamer-plugins-base1.0-0': }
-  package{'libgstreamer0.10-0': }
-  package{'libgstreamer1.0-0': }
   package{'libgtk-3-0': }
   package{'libgtk-3-bin': }
   package{'libgtk-3-common': }
@@ -486,7 +402,6 @@ class all-other-pkgs {
   package{'libharfbuzz0b': }
   package{'libhcrypto4-heimdal': }
   package{'libhdb9-heimdal': }
-  #package{'libhdf5-7': }
   package{'libhdf5-8': }
   package{'libheap-perl': }
   package{'libheimbase1-heimdal': }
@@ -508,11 +423,9 @@ class all-other-pkgs {
   package{'libhwloc5': }
   package{'libhx509-5-heimdal': }
   package{'libibverbs1': }
-  #package{'libical0': }
   package{'libical1a': }
   package{'libice-dev': }
   package{'libice6': }
-  #package{'libicu48': }
   package{'libicu52': }
   package{'libidl0': }
   package{'libidn11': }
@@ -521,7 +434,6 @@ class all-other-pkgs {
   package{'libieee1284-3': }
   package{'libijs-0.35': }
   package{'libilmbase6': }
-  #package{'libimobiledevice2': }
   package{'libimobiledevice4': }
   package{'libintl-perl': }
   package{'libio-html-perl': }
@@ -533,14 +445,10 @@ class all-other-pkgs {
   package{'libiodbc2': }
   package{'libirs-export91': }
   package{'libisc-export95': }
-  #package{'libisc84': }
   package{'libisc95': }
-  #package{'libisccc80': }
   package{'libisccc90': }
   package{'libisccfg-export90': }
-  #package{'libisccfg82': }
   package{'libisccfg90': }
-  #package{'libiscsi1': }
   package{'libiscsi2': }
   package{'libisl10': }
   package{'libiso9660-8': }
@@ -556,7 +464,6 @@ class all-other-pkgs {
   package{'libjpeg-dev': }
   package{'libjpeg62-turbo': }
   package{'libjpeg62-turbo-dev': }
-  #package{'libjpeg8': }
   package{'libjs-excanvas': }
   package{'libjs-jquery': }
   package{'libjson-c2': }
@@ -566,9 +473,7 @@ class all-other-pkgs {
   package{'libkabc4': }
   package{'libkactivities-models1': }
   package{'libkactivities6': }
-  #package{'libkadm5clnt-mit8': }
   package{'libkadm5clnt-mit9': }
-  package{'libkadm5srv-mit8': }
   package{'libkadm5srv-mit9': }
   package{'libkalarmcal2': }
   package{'libkate1': }
@@ -577,12 +482,10 @@ class all-other-pkgs {
   package{'libkcalcore4': }
   package{'libkcalutils4': }
   package{'libkcmutils4': }
-  #package{'libkdb5-6': }
   package{'libkdb5-7': }
   package{'libkdc2-heimdal': }
   package{'libkde3support4': }
   package{'libkdeclarative5': }
-  #package{'libkdecorations4': }
   package{'libkdecorations4abi2': }
   package{'libkdecore5': }
   package{'libkdesu5': }
@@ -607,7 +510,6 @@ class all-other-pkgs {
   package{'libkmediaplayer4': }
   package{'libkmime4': }
   package{'libkmod2': }
-  package{'libknewstuff2-4': }
   package{'libknewstuff3-4': }
   package{'libknotifyconfig4': }
   package{'libkntlm4': }
@@ -633,17 +535,13 @@ class all-other-pkgs {
   package{'libktexteditor4': }
   package{'libkunitconversion4': }
   package{'libkutils4': }
-  #package{'libkwineffects1abi3': }
   package{'libkwineffects1abi5': }
   package{'libkwinglesutils1': }
-  #package{'libkwinglutils1': }
   package{'libkwinglutils1abi2': }
-  #package{'libkworkspace4abi1': }
   package{'libkworkspace4abi2': }
   package{'libkxmlrpcclient4': }
   package{'liblapack-dev': }
   package{'liblapack3': }
-  #package{'liblcms1': }
   package{'liblcms2-2': }
   package{'liblcms2-utils': }
   package{'libldap-2.4-2': }
@@ -670,7 +568,6 @@ class all-other-pkgs {
   package{'liblvm2cmd2.02': }
   package{'liblwp-mediatypes-perl': }
   package{'liblwp-protocol-https-perl': }
-  #package{'liblwres80': }
   package{'liblwres90': }
   package{'liblz4-1': }
   package{'liblzma-dev': }
@@ -685,7 +582,6 @@ class all-other-pkgs {
   package{'libmail-spf-perl': }
   package{'libmailtools-perl': }
   package{'libmailtransport4': }
-  #package{'libmatroska5': }
   package{'libmatroska6': }
   package{'libmbim-glib4': }
   package{'libmbim-proxy': }
@@ -697,148 +593,8 @@ class all-other-pkgs {
   package{'libmodule-build-perl': }
   package{'libmodule-pluggable-perl': }
   package{'libmodule-signature-perl': }
-  package{'libmono-2.0-1': }
-  package{'libmono-2.0-dev': }
-  package{'libmono-accessibility4.0-cil': }
-  package{'libmono-c5-1.1-cil': }
-  package{'libmono-cairo4.0-cil': }
-  package{'libmono-cecil-private-cil': }
-  package{'libmono-cil-dev': }
-  package{'libmono-codecontracts4.0-cil': }
-  package{'libmono-compilerservices-symbolwriter4.0-cil': }
-  package{'libmono-corlib4.0-cil': }
-  package{'libmono-corlib4.5-cil': }
-  #package{'libmono-cscompmgd0.0-cil': }
-  package{'libmono-csharp4.0c-cil': }
-  package{'libmono-custommarshalers4.0-cil': }
-  package{'libmono-data-tds4.0-cil': }
-  package{'libmono-db2-1.0-cil': }
-  package{'libmono-debugger-soft4.0a-cil': }
-  package{'libmono-http4.0-cil': }
-  package{'libmono-i18n-cjk4.0-cil': }
-  package{'libmono-i18n-mideast4.0-cil': }
-  package{'libmono-i18n-other4.0-cil': }
-  package{'libmono-i18n-rare4.0-cil': }
-  package{'libmono-i18n-west4.0-cil': }
-  package{'libmono-i18n4.0-all': }
-  package{'libmono-i18n4.0-cil': }
-  package{'libmono-ldap4.0-cil': }
-  package{'libmono-management4.0-cil': }
-  package{'libmono-messaging-rabbitmq4.0-cil': }
-  package{'libmono-messaging4.0-cil': }
-  package{'libmono-microsoft-build-engine4.0-cil': }
-  package{'libmono-microsoft-build-framework4.0-cil': }
-  package{'libmono-microsoft-build-tasks-v4.0-4.0-cil': }
-  package{'libmono-microsoft-build-utilities-v4.0-4.0-cil': }
-  package{'libmono-microsoft-build4.0-cil': }
-  package{'libmono-microsoft-csharp4.0-cil': }
-  package{'libmono-microsoft-visualc10.0-cil': }
-  package{'libmono-microsoft-web-infrastructure1.0-cil': }
-  package{'libmono-oracle4.0-cil': }
-  package{'libmono-parallel4.0-cil': }
-  package{'libmono-peapi4.0a-cil': }
-  package{'libmono-posix4.0-cil': }
-  package{'libmono-profiler': }
-  package{'libmono-rabbitmq4.0-cil': }
-  package{'libmono-relaxng4.0-cil': }
-  package{'libmono-security4.0-cil': }
-  package{'libmono-sharpzip4.84-cil': }
-  package{'libmono-simd4.0-cil': }
-  #package{'libmono-smdiagnostics0.0-cil': }
-  package{'libmono-sqlite4.0-cil': }
-  package{'libmono-system-componentmodel-composition4.0-cil': }
-  package{'libmono-system-componentmodel-dataannotations4.0-cil': }
-  package{'libmono-system-configuration-install4.0-cil': }
-  package{'libmono-system-configuration4.0-cil': }
-  package{'libmono-system-core4.0-cil': }
-  package{'libmono-system-data-datasetextensions4.0-cil': }
-  #package{'libmono-system-data-entity4.0-cil': }
-  package{'libmono-system-data-linq4.0-cil': }
-  package{'libmono-system-data-services-client4.0-cil': }
-  package{'libmono-system-data-services4.0-cil': }
-  package{'libmono-system-data4.0-cil': }
-  package{'libmono-system-design4.0-cil': }
-  package{'libmono-system-drawing-design4.0-cil': }
-  package{'libmono-system-drawing4.0-cil': }
-  package{'libmono-system-dynamic4.0-cil': }
-  package{'libmono-system-enterpriseservices4.0-cil': }
-  package{'libmono-system-identitymodel-selectors4.0-cil': }
-  package{'libmono-system-identitymodel4.0-cil': }
-  package{'libmono-system-io-compression-filesystem4.0-cil': }
-  package{'libmono-system-io-compression4.0-cil': }
-  package{'libmono-system-json-microsoft4.0-cil': }
-  package{'libmono-system-json4.0-cil': }
-  package{'libmono-system-ldap-protocols4.0-cil': }
-  package{'libmono-system-ldap4.0-cil': }
-  package{'libmono-system-management4.0-cil': }
-  package{'libmono-system-messaging4.0-cil': }
-  package{'libmono-system-net-http-formatting4.0-cil': }
-  package{'libmono-system-net-http-webrequest4.0-cil': }
-  package{'libmono-system-net-http4.0-cil': }
-  package{'libmono-system-net4.0-cil': }
-  package{'libmono-system-numerics4.0-cil': }
-  package{'libmono-system-reactive-core2.2-cil': }
-  package{'libmono-system-reactive-debugger2.2-cil': }
-  package{'libmono-system-reactive-experimental2.2-cil': }
-  package{'libmono-system-reactive-interfaces2.2-cil': }
-  package{'libmono-system-reactive-linq2.2-cil': }
-  package{'libmono-system-reactive-observable-aliases0.0-cil': }
-  package{'libmono-system-reactive-platformservices2.2-cil': }
-  package{'libmono-system-reactive-providers2.2-cil': }
-  package{'libmono-system-reactive-runtime-remoting2.2-cil': }
-  package{'libmono-system-reactive-windows-forms2.2-cil': }
-  package{'libmono-system-reactive-windows-threading2.2-cil': }
-  package{'libmono-system-runtime-caching4.0-cil': }
-  package{'libmono-system-runtime-durableinstancing4.0-cil': }
-  package{'libmono-system-runtime-serialization-formatters-soap4.0-cil': }
-  package{'libmono-system-runtime-serialization4.0-cil': }
-  package{'libmono-system-runtime4.0-cil': }
-  package{'libmono-system-security4.0-cil': }
-  package{'libmono-system-servicemodel-activation4.0-cil': }
-  package{'libmono-system-servicemodel-discovery4.0-cil': }
-  #package{'libmono-system-servicemodel-internals0.0-cil': }
-  package{'libmono-system-servicemodel-routing4.0-cil': }
-  package{'libmono-system-servicemodel-web4.0-cil': }
-  package{'libmono-system-servicemodel4.0a-cil': }
-  package{'libmono-system-serviceprocess4.0-cil': }
-  package{'libmono-system-threading-tasks-dataflow4.0-cil': }
-  package{'libmono-system-transactions4.0-cil': }
-  package{'libmono-system-web-abstractions4.0-cil': }
-  package{'libmono-system-web-applicationservices4.0-cil': }
-  package{'libmono-system-web-dynamicdata4.0-cil': }
-  package{'libmono-system-web-extensions-design4.0-cil': }
-  package{'libmono-system-web-extensions4.0-cil': }
-  package{'libmono-system-web-http-selfhost4.0-cil': }
-  package{'libmono-system-web-http-webhost4.0-cil': }
-  package{'libmono-system-web-http4.0-cil': }
-  package{'libmono-system-web-mvc3.0-cil': }
-  package{'libmono-system-web-razor2.0-cil': }
-  package{'libmono-system-web-routing4.0-cil': }
-  package{'libmono-system-web-services4.0-cil': }
-  package{'libmono-system-web-webpages-deployment2.0-cil': }
-  package{'libmono-system-web-webpages-razor2.0-cil': }
-  package{'libmono-system-web-webpages2.0-cil': }
-  package{'libmono-system-web4.0-cil': }
-  package{'libmono-system-windows-forms-datavisualization4.0a-cil': }
-  package{'libmono-system-windows-forms4.0-cil': }
-  package{'libmono-system-windows4.0-cil': }
-  package{'libmono-system-xaml4.0-cil': }
-  package{'libmono-system-xml-linq4.0-cil': }
-  package{'libmono-system-xml-serialization4.0-cil': }
-  package{'libmono-system-xml4.0-cil': }
-  package{'libmono-system4.0-cil': }
-  package{'libmono-tasklets4.0-cil': }
-  package{'libmono-webbrowser4.0-cil': }
-  package{'libmono-webmatrix-data4.0-cil': }
-  package{'libmono-windowsbase4.0-cil': }
-  package{'libmono-xbuild-tasks4.0-cil': }
-  package{'libmonoboehm-2.0-1': }
-  package{'libmonoboehm-2.0-dev': }
-  package{'libmonosgen-2.0-1': }
   package{'libmount1': }
-  #package{'libmozjs10d': }
   package{'libmp3lame0': }
-  #package{'libmpc2': }
   package{'libmpc3': }
   package{'libmpcdec6': }
   package{'libmpdec2': }
@@ -882,18 +638,10 @@ class all-other-pkgs {
   package{'libntrack-qt4-1': }
   package{'libntrack0': }
   package{'libnuma1': }
-  package{'libnunit-cil-dev': }
-  package{'libnunit-console-runner2.6.3-cil': }
-  package{'libnunit-core-interfaces2.6.3-cil': }
-  package{'libnunit-core2.6.3-cil': }
-  package{'libnunit-framework2.6.3-cil': }
-  package{'libnunit-mocks2.6.3-cil': }
-  package{'libnunit-util2.6.3-cil': }
   package{'libodbc1': }
   package{'libogg0': }
   package{'libonig2': }
   package{'libopenexr6': }
-  #package{'libopenjpeg2': }
   package{'libopenjpeg5': }
   package{'libopenmpi1.3': }
   package{'libopenvg1-mesa': }
@@ -922,7 +670,6 @@ class all-other-pkgs {
   package{'libpangoxft-1.0-0': }
   package{'libpaper-utils': }
   package{'libpaper1': }
-  #package{'libparted0debian1': }
   package{'libparted2': }
   package{'libpathplan4': }
   package{'libpci3': }
@@ -938,10 +685,8 @@ class all-other-pkgs {
   package{'libpixman-1-0': }
   package{'libplasma-geolocation-interface4': }
   package{'libplasma3': }
-  #package{'libplasmaclock4abi3': }
   package{'libplasmaclock4abi4': }
   package{'libplasmagenericshell4': }
-  #package{'libplist1': }
   package{'libplist2': }
   package{'libpng12-0': }
   package{'libpng12-dev': }
@@ -951,7 +696,6 @@ class all-other-pkgs {
   package{'libpolkit-backend-1-0': }
   package{'libpolkit-gobject-1-0': }
   package{'libpolkit-qt-1-1': }
-  #package{'libpoppler19': }
   package{'libpoppler46': }
   package{'libpopt0': }
   package{'libpostproc52': }
@@ -959,27 +703,13 @@ class all-other-pkgs {
   package{'libprison0': }
   package{'libprocesscore4abi1': }
   package{'libprocessui4a': }
-  #package{'libprocps0': }
   package{'libprocps3': }
-  #package{'libproxy0': }
   package{'libproxy1': }
   package{'libpsl0': }
   package{'libpth20': }
   package{'libpthread-stubs0-dev': }
   package{'libpulse-mainloop-glib0': }
   package{'libpulse0': }
-  package{'libpython-dev': }
-  package{'libpython-stdlib': }
-  package{'libpython2.7': }
-  package{'libpython2.7-dev': }
-  package{'libpython2.7-minimal': }
-  package{'libpython2.7-stdlib': }
-  package{'libpython3-dev': }
-  package{'libpython3-stdlib': }
-  package{'libpython3.4': }
-  package{'libpython3.4-dev': }
-  package{'libpython3.4-minimal': }
-  package{'libpython3.4-stdlib': }
   package{'libqalculate5': }
   package{'libqca2': }
   package{'libqdbm14': }
@@ -1031,10 +761,7 @@ class all-other-pkgs {
   package{'librsvg2-2': }
   package{'librsvg2-common': }
   package{'librtmp-dev': }
-  #package{'librtmp0': }
   package{'librtmp1': }
-  #package{'libruby1.8': }
-  #package{'libruby1.9.1': }
   package{'libruby2.1': }
   package{'libsamplerate0': }
   package{'libsane': }
@@ -1075,7 +802,6 @@ class all-other-pkgs {
   package{'libsmokekfile3': }
   package{'libsmokekhtml3': }
   package{'libsmokekio3': }
-  package{'libsmokeknewstuff2-3': }
   package{'libsmokeknewstuff3-3': }
   package{'libsmokekparts3': }
   package{'libsmokektexteditor3': }
@@ -1100,8 +826,6 @@ class all-other-pkgs {
   package{'libsocket-perl': }
   package{'libsocket6-perl': }
   package{'libsolid4': }
-  #package{'libsolidcontrol4abi2': }
-  #package{'libsolidcontrolifaces4abi2': }
   package{'libsoprano4': }
   package{'libsoup-gnome2.4-1': }
   package{'libsoup2.4-1': }
@@ -1123,7 +847,6 @@ class all-other-pkgs {
   package{'libstreamanalyzer0': }
   package{'libstreams0': }
   package{'libswitch-perl': }
-  #package{'libswscale2': }
   package{'libswscale3': }
   package{'libsyndication4': }
   package{'libsys-hostname-long-perl': }
@@ -1133,9 +856,7 @@ class all-other-pkgs {
   package{'libtag1c2a': }
   package{'libtalloc2': }
   package{'libtar0': }
-  #package{'libtaskmanager4abi3': }
   package{'libtaskmanager4abi4': }
-  #package{'libtasn1-3': }
   package{'libtasn1-6': }
   package{'libtasn1-6-dev': }
   package{'libtasn1-doc': }
@@ -1157,7 +878,6 @@ class all-other-pkgs {
   package{'libtheora0': }
   package{'libthreadweaver4': }
   package{'libtie-ixhash-perl': }
-  #package{'libtiff4': }
   package{'libtiff5': }
   package{'libtimedate-perl': }
   package{'libtinfo-dev': }
@@ -1167,26 +887,20 @@ class all-other-pkgs {
   package{'libtk8.6': }
   package{'libtokyocabinet9': }
   package{'libtool': }
-  #package{'libtorque2': }
-  #package{'libts-0.0-0': }
   package{'libtsan0': }
   package{'libtwolame0': }
   package{'libtxc-dxtn-s2tc0': }
   package{'libubsan0': }
-  #package{'libudev0': }
   package{'libudev1': }
   package{'libudisks2-0': }
-  #package{'libumfpack5.4.0': }
   package{'libunistring0': }
   package{'libunwind8': }
   package{'libupnp6': }
-  #package{'libupower-glib1': }
   package{'libupower-glib3': }
   package{'liburi-perl': }
   package{'libusageenvironment1': }
   package{'libusb-0.1-4': }
   package{'libusb-1.0-0': }
-  #package{'libusbmuxd1': }
   package{'libusbmuxd2': }
   package{'libusbredirparser1': }
   package{'libustr-1.0-1': }
@@ -1206,7 +920,6 @@ class all-other-pkgs {
   package{'libvisual-0.4-0': }
   package{'libvisual-0.4-plugins': }
   package{'libvlc5': }
-  #package{'libvlccore5': }
   package{'libvlccore8': }
   package{'libvncclient0': }
   package{'libvorbis0a': }
@@ -1226,7 +939,6 @@ class all-other-pkgs {
   package{'libwebkit1.1-cil': }
   package{'libwebkitgtk-1.0-0': }
   package{'libwebkitgtk-1.0-common': }
-  #package{'libwebp2': }
   package{'libwebp5': }
   package{'libwebpdemux1': }
   package{'libwebpmux1': }
@@ -1261,12 +973,10 @@ class all-other-pkgs {
   package{'libx11-protocol-perl': }
   package{'libx11-xcb-dev': }
   package{'libx11-xcb1': }
-  #package{'libx264-123': }
   package{'libx264-142': }
   package{'libx32asan1': }
   package{'libx32atomic1': }
   package{'libx32cilkrts5': }
-  #package{'libx32gcc-4.7-dev': }
   package{'libx32gcc-4.9-dev': }
   package{'libx32gcc1': }
   package{'libx32gomp1': }
@@ -1274,7 +984,6 @@ class all-other-pkgs {
   package{'libx32quadmath0': }
   package{'libx32stdc++-4.9-dev': }
   package{'libx32stdc++6': }
-  #package{'libx32stdc++6-4.7-dev': }
   package{'libx32ubsan0': }
   package{'libx86-1': }
   package{'libxapian22': }
@@ -1284,8 +993,6 @@ class all-other-pkgs {
   package{'libxaw7': }
   package{'libxcb-composite0': }
   package{'libxcb-damage0': }
-  package{'libxcb-dri2-0': }
-  package{'libxcb-dri2-0-dev': }
   package{'libxcb-dri3-0': }
   package{'libxcb-dri3-dev': }
   package{'libxcb-glx0': }
@@ -1317,7 +1024,6 @@ class all-other-pkgs {
   package{'libxdmcp-dev': }
   package{'libxdmcp6': }
   package{'libxdot4': }
-  #package{'libxen-4.1': }
   package{'libxen-4.4': }
   package{'libxenstore3.0': }
   package{'libxerces-c3.1': }
@@ -1331,17 +1037,6 @@ class all-other-pkgs {
   package{'libxinerama1': }
   package{'libxkbcommon0': }
   package{'libxkbfile1': }
-  package{'libxml-commons-resolver1.1-java': }
-  package{'libxml-libxml-perl': }
-  package{'libxml-namespacesupport-perl': }
-  package{'libxml-parser-perl': }
-  package{'libxml-sax-base-perl': }
-  package{'libxml-sax-expat-perl': }
-  package{'libxml-sax-perl': }
-  package{'libxml-twig-perl': }
-  package{'libxml-xpathengine-perl': }
-  package{'libxml2': }
-  package{'libxml2-utils': }
   package{'libxmu6': }
   package{'libxmuu1': }
   package{'libxpm4': }
@@ -1365,12 +1060,8 @@ class all-other-pkgs {
   package{'libyaml-0-2': }
   package{'libzvbi0': }
   package{'linux-base': }
-  #package{'linux-headers-3.2.0-4-amd64': }
-  #package{'linux-headers-3.2.0-4-common': }
   package{'linux-image-3.16.0-4-amd64': }
-  #package{'linux-image-3.2.0-4-amd64': }
   package{'linux-image-amd64': }
-  #package{'linux-kbuild-3.2': }
   package{'linux-libc-dev': }
   package{'linux-tools': }
   package{'linux-tools-3.16': }
@@ -1402,19 +1093,6 @@ class all-other-pkgs {
   package{'mlocate': }
   package{'modemmanager': }
   package{'module-init-tools': }
-  package{'mono-4.0-gac': }
-  package{'mono-4.0-service': }
-  package{'mono-complete': }
-  package{'mono-csharp-shell': }
-  package{'mono-devel': }
-  package{'mono-gac': }
-  package{'mono-jay': }
-  package{'mono-mcs': }
-  package{'mono-runtime': }
-  package{'mono-runtime-common': }
-  package{'mono-runtime-sgen': }
-  package{'mono-utils': }
-  package{'mono-xbuild': }
   package{'monodoc-base': }
   package{'monodoc-browser': }
   package{'monodoc-manual': }
@@ -1422,11 +1100,6 @@ class all-other-pkgs {
   package{'mscompress': }
   package{'multiarch-support': }
   package{'mutt': }
-  package{'mysql-client-5.5': }
-  package{'mysql-common': }
-  package{'mysql-server': }
-  package{'mysql-server-5.5': }
-  package{'mysql-server-core-5.5': }
   package{'nano': }
   package{'ncurses-base': }
   package{'ncurses-bin': }
@@ -1445,13 +1118,6 @@ class all-other-pkgs {
   package{'odbcinst': }
   package{'odbcinst1debian2': }
   package{'openbsd-inetd': }
-  package{'openjdk-6-jdk': }
-  package{'openjdk-6-jre': }
-  package{'openjdk-6-jre-headless': }
-  #package{'openjdk-6-jre-lib': }
-  package{'openjdk-7-jdk': }
-  package{'openjdk-7-jre': }
-  package{'openjdk-7-jre-headless': }
   package{'openprinting-ppds': }
   package{'openssh-client': }
   package{'openssh-server': }
@@ -1465,17 +1131,7 @@ class all-other-pkgs {
   package{'passwd': }
   package{'patch': }
   package{'pciutils': }
-  package{'perl': }
-  package{'perl-base': }
-  package{'perl-modules': }
   package{'phonon': }
-  package{'php-fpdf': }
-  package{'php5-cli': }
-  package{'php5-common': }
-  package{'php5-curl': }
-  package{'php5-gd': }
-  package{'php5-json': }
-  package{'php5-readline': }
   package{'pinentry-gtk2': }
   package{'pkg-config': }
   package{'plasma-scriptengine-superkaramba': }
@@ -1488,177 +1144,18 @@ class all-other-pkgs {
   package{'poppler-data': }
   package{'poppler-utils': }
   package{'popularity-contest': }
-  package{'postgresql': }
-  package{'postgresql-9.1': }
-  package{'postgresql-9.4': }
-  #package{'postgresql-client-9.1': }
-  package{'postgresql-client-9.4': }
-  package{'postgresql-client-common': }
-  package{'postgresql-common': }
-  package{'postgresql-contrib': }
-  #package{'postgresql-contrib-9.1': }
-  package{'postgresql-contrib-9.4': }
-  package{'postgresql-doc': }
-  #package{'postgresql-doc-9.1': }
-  package{'postgresql-doc-9.4': }
-  package{'printer-driver-all': }
-  package{'printer-driver-c2050': }
-  package{'printer-driver-c2esp': }
-  package{'printer-driver-cjet': }
-  package{'printer-driver-escpr': }
-  package{'printer-driver-foo2zjs': }
-  package{'printer-driver-foo2zjs-common': }
-  package{'printer-driver-gutenprint': }
-  package{'printer-driver-hpcups': }
-  package{'printer-driver-hpijs': }
-  package{'printer-driver-m2300w': }
-  package{'printer-driver-min12xxw': }
-  package{'printer-driver-pnm2ppa': }
-  package{'printer-driver-ptouch': }
-  package{'printer-driver-pxljr': }
-  package{'printer-driver-sag-gdi': }
-  package{'printer-driver-splix': }
   package{'procmail': }
   package{'procps': }
   package{'psmisc': }
   package{'psutils': }
-  package{'python': }
-  package{'python-amqp': }
-  package{'python-amqplib': }
-  package{'python-antlr': }
-  package{'python-anyjson': }
-  package{'python-apt': }
-  package{'python-apt-common': }
-  package{'python-billiard': }
-  package{'python-bs4': }
-  package{'python-cairo': }
-  package{'python-celery': }
-  package{'python-chardet': }
-  #package{'python-cl': }
-  package{'python-crypto': }
-  package{'python-dateutil': }
-  package{'python-decorator': }
-  package{'python-dev': }
-  package{'python-django': }
-  package{'python-django-celery': }
-  package{'python-django-common': }
-  package{'python-django-pagination': }
-  package{'python-django-picklefield': }
-  package{'python-django-south': }
-  package{'python-dnspython': }
-  package{'python-egenix-mxdatetime': }
-  package{'python-egenix-mxtools': }
-  package{'python-glade2': }
-  package{'python-gmpy': }
-  package{'python-gobject-2': }
-  package{'python-gtk2': }
-  package{'python-html5lib': }
-  package{'python-imaging': }
-  package{'python-joblib': }
-  package{'python-kombu': }
-  package{'python-ldb': }
-  package{'python-lxml': }
-  package{'python-mailer': }
-  package{'python-markdown': }
-  package{'python-matplotlib-data': }
-  package{'python-memcache': }
-  package{'python-minimal': }
-  package{'python-nose': }
-  package{'python-ntdb': }
-  package{'python-numexpr': }
-  package{'python-numpy': }
-  package{'python-openid': }
-  package{'python-openpyxl': }
-  package{'python-pandas': }
-  package{'python-pandas-lib': }
-  package{'python-pexpect': }
-  package{'python-pil': }
-  package{'python-pkg-resources': }
-  package{'python-psycopg2': }
-  package{'python-pygments': }
-  package{'python-pyicu': }
-  package{'python-pyparsing': }
-  package{'python-renderpm': }
-  package{'python-reportlab': }
-  package{'python-reportlab-accel': }
-  package{'python-samba': }
-  package{'python-scipy': }
-  package{'python-setuptools': }
-  package{'python-simplegeneric': }
-  package{'python-simplejson': }
-  package{'python-six': }
-  package{'python-sklearn': }
-  package{'python-sklearn-lib': }
-  package{'python-software-properties': }
-  package{'python-sqlparse': }
-  package{'python-statsmodels': }
-  package{'python-statsmodels-lib': }
-  package{'python-support': }
-  package{'python-talloc': }
-  package{'python-tdb': }
-  package{'python-tz': }
-  package{'python-xlrd': }
-  package{'python-xlwt': }
-  package{'python-yaml': }
-  package{'python2.6': }
-  package{'python2.6-minimal': }
-  package{'python2.7': }
-  package{'python2.7-dev': }
-  package{'python2.7-minimal': }
-  package{'python3': }
-  package{'python3-apt': }
-  package{'python3-aptdaemon': }
-  package{'python3-aptdaemon.gtk3widgets': }
-  package{'python3-chardet': }
-  package{'python3-colorama': }
-  package{'python3-dbus': }
-  package{'python3-defer': }
-  package{'python3-dev': }
-  package{'python3-distlib': }
-  package{'python3-gi': }
-  package{'python3-html5lib': }
-  package{'python3-minimal': }
-  package{'python3-pip': }
-  package{'python3-pkg-resources': }
-  package{'python3-requests': }
-  package{'python3-setuptools': }
-  package{'python3-six': }
-  package{'python3-software-properties': }
-  package{'python3-urllib3': }
-  package{'python3-wheel': }
-  package{'python3.4': }
-  package{'python3.4-dev': }
-  package{'python3.4-minimal': }
   package{'qemu-system-common': }
   package{'qemu-system-x86': }
   package{'qemu-utils': }
   package{'qpdf': }
-  package{'r-base': }
-  package{'r-base-core': }
-  package{'r-base-dev': }
-  package{'r-base-html': }
-  package{'r-cran-boot': }
-  package{'r-cran-class': }
-  package{'r-cran-cluster': }
-  package{'r-cran-codetools': }
-  package{'r-cran-foreign': }
-  package{'r-cran-kernsmooth': }
-  package{'r-cran-lattice': }
-  package{'r-cran-mass': }
-  package{'r-cran-matrix': }
-  package{'r-cran-mgcv': }
-  package{'r-cran-nlme': }
-  package{'r-cran-nnet': }
-  package{'r-cran-rpart': }
-  package{'r-cran-spatial': }
-  package{'r-cran-survival': }
-  package{'r-doc-html': }
-  package{'r-recommended': }
   package{'rabbitmq-server': }
   package{'rarian-compat': }
   package{'re2c': }
   package{'readline-common': }
-  #package{'referenceassemblies-pcl': }
   package{'rename': }
   package{'reportbug': }
   package{'rinse': }
@@ -1668,20 +1165,8 @@ class all-other-pkgs {
   package{'rpm2cpio': }
   package{'rsync': }
   package{'rsyslog': }
-  package{'ruby': }
-  package{'ruby1.8': }
-  package{'ruby1.9.1': }
-  package{'ruby2.1': }
-  package{'rubygems-integration': }
   package{'sa-compile': }
   package{'sa-exim': }
-  package{'samba': }
-  package{'samba-common': }
-  package{'samba-common-bin': }
-  package{'samba-doc': }
-  package{'samba-dsdb-modules': }
-  package{'samba-libs': }
-  package{'samba-vfs-modules': }
   package{'sane-utils': }
   package{'seabios': }
   package{'sed': }
@@ -1710,10 +1195,7 @@ class all-other-pkgs {
   package{'sysvinit': }
   package{'sysvinit-utils': }
   package{'tar': }
-  #package{'task-database-server': }
   package{'task-english': }
-  #package{'task-file-server': }
-  #package{'task-mail-server': }
   package{'task-print-server': }
   package{'task-ssh-server': }
   package{'tasksel': }
@@ -1732,7 +1214,6 @@ class all-other-pkgs {
   package{'tk8.6-blt2.5': }
   package{'tofrodos': }
   package{'traceroute': }
-  #package{'tsconf': }
   package{'ttf-dejavu-extra': }
   package{'tzdata': }
   package{'tzdata-java': }
@@ -1767,31 +1248,13 @@ class all-other-pkgs {
   package{'whois': }
   package{'winbind': }
   package{'wpasupplicant': }
-  package{'x11-apps': }
-  package{'x11-common': }
-  package{'x11-session-utils': }
-  package{'x11-utils': }
-  package{'x11-xfs-utils': }
-  package{'x11-xkb-utils': }
-  package{'x11-xserver-utils': }
-  package{'x11proto-core-dev': }
-  package{'x11proto-damage-dev': }
-  package{'x11proto-dri2-dev': }
-  package{'x11proto-fixes-dev': }
-  package{'x11proto-gl-dev': }
-  package{'x11proto-input-dev': }
-  package{'x11proto-kb-dev': }
-  package{'x11proto-xext-dev': }
-  package{'x11proto-xf86vidmode-dev': }
   package{'xauth': }
   package{'xbitmaps': }
   package{'xdg-user-dirs': }
   package{'xdg-utils': }
-  #package{'xen-hypervisor-4.1-amd64': }
   package{'xen-hypervisor-4.4-amd64': }
   package{'xen-system-amd64': }
   package{'xen-tools': }
-  #package{'xen-utils-4.1': }
   package{'xen-utils-4.4': }
   package{'xen-utils-common': }
   package{'xenstore-utils': }
@@ -1808,36 +1271,6 @@ class all-other-pkgs {
   package{'xorg': }
   package{'xorg-docs-core': }
   package{'xorg-sgml-doctools': }
-  package{'xserver-common': }
-  package{'xserver-xorg': }
-  package{'xserver-xorg-core': }
-  package{'xserver-xorg-input-all': }
-  package{'xserver-xorg-input-evdev': }
-  package{'xserver-xorg-input-mouse': }
-  package{'xserver-xorg-input-synaptics': }
-  package{'xserver-xorg-input-vmmouse': }
-  package{'xserver-xorg-input-wacom': }
-  package{'xserver-xorg-video-all': }
-  package{'xserver-xorg-video-ati': }
-  package{'xserver-xorg-video-cirrus': }
-  package{'xserver-xorg-video-fbdev': }
-  package{'xserver-xorg-video-intel': }
-  package{'xserver-xorg-video-mach64': }
-  package{'xserver-xorg-video-mga': }
-  package{'xserver-xorg-video-modesetting': }
-  package{'xserver-xorg-video-neomagic': }
-  package{'xserver-xorg-video-nouveau': }
-  package{'xserver-xorg-video-openchrome': }
-  package{'xserver-xorg-video-qxl': }
-  package{'xserver-xorg-video-r128': }
-  package{'xserver-xorg-video-radeon': }
-  package{'xserver-xorg-video-savage': }
-  package{'xserver-xorg-video-siliconmotion': }
-  package{'xserver-xorg-video-sisusb': }
-  package{'xserver-xorg-video-tdfx': }
-  package{'xserver-xorg-video-trident': }
-  package{'xserver-xorg-video-vesa': }
-  package{'xserver-xorg-video-vmware': }
   package{'xsltproc': }
   package{'xterm': }
   package{'xtrans-dev': }

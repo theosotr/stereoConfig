@@ -1,4 +1,10 @@
 class mysql {
+  package{'mysql-client-5.5': }
+  package{'mysql-common': }
+  package{'mysql-server': }
+  package{'mysql-server-5.5': }
+  package{'mysql-server-core-5.5': }
+
   file { '/etc/mysql/my.cnf':
     ensure => present,
   }->
