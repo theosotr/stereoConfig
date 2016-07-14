@@ -836,7 +836,6 @@ class all-other-pkgs {
   package{'libssl1.0.0': }
   package{'libstdc++-4.9-dev': }
   package{'libstdc++6': }
-  package{'libstdc++6-4.7-dev': }
   package{'libstreamanalyzer0': }
   package{'libstreams0': }
   package{'libswitch-perl': }
