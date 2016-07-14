@@ -1,4 +1,5 @@
 node default {
+  include ::mail
   include ::xserver
   include ::x11
   include ::samba
