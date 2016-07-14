@@ -1,8 +1,5 @@
 class gcc {
   package{'gcc': }
-  package{'gcc-4.6': }
-  package{'gcc-4.7': }
-  package{'gcc-4.7-base': }
   package{'gcc-4.9': }
   package{'gcc-4.9-base': }
   package{'gcc-4.9-multilib': }

@@ -89,8 +89,6 @@ class python {
   package{'python-xlrd': }
   package{'python-xlwt': }
   package{'python-yaml': }
-  package{'python2.6': }
-  package{'python2.6-minimal': }
   package{'python2.7': }
   package{'python2.7-dev': }
   package{'python2.7-minimal': }

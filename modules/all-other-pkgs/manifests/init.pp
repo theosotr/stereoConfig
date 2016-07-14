@@ -35,7 +35,6 @@ class all-other-pkgs {
   package{'fakeroot': }
   package{'file': }
   package{'findutils': }
-  package{'firefox': }
   package{'firmware-linux-free': }
   package{'flex': }
   package{'ftp': }
@@ -133,7 +132,6 @@ class all-other-pkgs {
   package{'libattica0.4': }
   package{'libattr1': }
   package{'libaudit-common': }
-  package{'libaudit0': }
   package{'libaudit1': }
   package{'libauthen-sasl-perl': }
   package{'libavahi-client3': }
@@ -230,7 +228,6 @@ class all-other-pkgs {
   package{'libdbusmenu-qt2': }
   package{'libdc1394-22': }
   package{'libdca0': }
-  package{'libdconf0': }
   package{'libdconf1': }
   package{'libdebconfclient0': }
   package{'libdevmapper-event1.02.1': }
@@ -270,7 +267,6 @@ class all-other-pkgs {
   package{'libepoxy0': }
   package{'libept1.4.12': }
   package{'liberror-perl': }
-  package{'libescpr1': }
   package{'libestr0': }
   package{'libevdev2': }
   package{'libevent-2.0-5': }
@@ -320,7 +316,6 @@ class all-other-pkgs {
   package{'libgdiplus': }
   package{'libgdk-pixbuf2.0-0': }
   package{'libgdk-pixbuf2.0-common': }
-  package{'libgdu0': }
   package{'libgeoip1': }
   package{'libgettextpo-dev': }
   package{'libgettextpo0': }
@@ -643,7 +638,6 @@ class all-other-pkgs {
   package{'libonig2': }
   package{'libopenexr6': }
   package{'libopenjpeg5': }
-  package{'libopenmpi1.3': }
   package{'libopenvg1-mesa': }
   package{'libopus0': }
   package{'liborbit-2-0': }
@@ -821,7 +815,6 @@ class all-other-pkgs {
   package{'libsnappy1': }
   package{'libsndfile1': }
   package{'libsnmp-base': }
-  package{'libsnmp15': }
   package{'libsnmp30': }
   package{'libsocket-perl': }
   package{'libsocket6-perl': }
@@ -1186,7 +1179,6 @@ class all-other-pkgs {
   package{'startpar': }
   package{'strace': }
   package{'sudo': }
-  package{'swat': }
   package{'synaptic': }
   package{'systemd': }
   package{'systemd-sysv': }

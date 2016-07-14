@@ -9,7 +9,6 @@ class lib32 {
   package{'lib32quadmath0': }
   package{'lib32stdc++-4.9-dev': }
   package{'lib32stdc++6': }
-  package{'lib32stdc++6-4.7-dev': }
   package{'lib32ubsan0': }
   package{'lib32z1': }
 }

@@ -9,7 +9,6 @@ class libboost {
   package{'libboost-locale1.55.0': }
   package{'libboost-log1.55.0': }
   package{'libboost-math1.55.0': }
-  package{'libboost-mpi-python1.49.0': }
   package{'libboost-program-options1.55.0': }
   package{'libboost-python1.55.0': }
   package{'libboost-random1.55.0': }
