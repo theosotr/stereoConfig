@@ -32,4 +32,11 @@ class mysql {
       path => '/etc/mysql/my.cnf',
       line => 'log_error=/var/log/mysql/error.log',
     }
+  file { '/etc/updatedb.conf':
+    ensure => present,
+  }->
+    file_line { 'prunepaths':
+      path => '/etc/updatedb.conf',
+      line => '/tmp /var/spool /media /home',
+  }
 }
