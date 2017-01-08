@@ -10,7 +10,7 @@
 2. Copy common.yaml to /etc/puppet/hieradata/ (It contains username and corresponding password for each user in key value form.)
 
 ##Clone config repo
-git clone git@github.com:tushartushar/stereoConfig.git
+git clone git@github.com:istlab/stereoConfig.git
 
 ##Check puppet manifests
 It is a good practice to confirm whether the catalog compiles without errors and what are the changes going to happen. You may use the following command for the same:
