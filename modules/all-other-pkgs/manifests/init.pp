@@ -1105,6 +1105,7 @@ class all-other-pkgs {
   package{'nfs-kernel-server': }
   package{'notification-daemon': }
   package{'ntfs-3g': }
+  package{'ntp':}
   package{'ntrack-module-libnl-0': }
   package{'ocl-icd-libopencl1': }
   package{'odbcinst': }
