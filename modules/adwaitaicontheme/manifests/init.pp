@@ -1,3 +1,3 @@
-class adwaita-icon-theme {
+class adwaitaicontheme {
   package{'adwaita-icon-theme':}
 }

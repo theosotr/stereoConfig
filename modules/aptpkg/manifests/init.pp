@@ -1,4 +1,4 @@
-class apt-pkg {
+class aptpkg {
   package{'apt': }
   package{'apt-listchanges': }
   package{'apt-utils': }

@@ -1,3 +1,3 @@
-class akonadi-backend-mysql {
+class akonadibackendmysql {
   package {'akonadi-backend-mysql':}
 }

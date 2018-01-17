@@ -7,7 +7,9 @@ class users {
     $sgeorgiou = hiera('sgeorgiou')
     $dimitro   = hiera('dimitro')
     $vitsalis  = hiera('vitsalis')
-    $mariai    = hiera('mariai')
+    $antonis    = hiera('antonis')
+    $vasiliki  = hiera('vasiliki')
+    $thodoras  = hiera('thodoras')
     user {'tushar':
         ensure      => present,
         home        => '/home/tushar',
@@ -71,10 +73,24 @@ class users {
         shell       => '/bin/bash',
         managehome  => true,
     }
-    user {'mariai':
+    user {'antonis':
         ensure      => present,
-        home        => '/home/mariai',
-        password    => $mariai,
+        home        => '/home/antonis',
+        password    => $antonis,
+        shell       => '/bin/bash',
+        managehome  => true,
+    }
+    user {'vasiliki':
+        ensure      => present,
+        home        => '/home/vasiliki',
+        password    => $vasiliki,
+        shell       => '/bin/bash',
+        managehome  => true,
+    }
+    user {'thodoras':
+        ensure      => present,
+        home        => '/home/thodoras',
+        password    => $thodoras,
         shell       => '/bin/bash',
         managehome  => true,
     }

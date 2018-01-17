@@ -98,4 +98,4 @@ do
 	fi
 done
 
-puppet apply $PUPPETOPT $FILEDIR/manifests/
+puppet apply --modulepath=/home/tushar/stereoConfig/modules/ $PUPPETOPT $FILEDIR/manifests/

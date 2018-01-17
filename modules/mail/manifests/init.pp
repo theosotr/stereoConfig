@@ -8,7 +8,7 @@ class mail {
     source  => 'puppet:///modules/mail/main.cf',
     owner   => root,
     group   => root,
-    mode    => 644,
+    mode    => "644",
     notify  => Service['postfix']
   }
 
@@ -16,7 +16,7 @@ class mail {
     content  => "stereo.dmst.aueb.gr\n",
     owner    => root,
     group    => root,
-    mode     => 644,
+    mode     => "644",
     notify   => Service['postfix']
   }
 
@@ -26,7 +26,7 @@ class mail {
     source  => 'puppet:///modules/mail/master.cf',
     owner   => root,
     group   => root,
-    mode    => 644,
+    mode    => "644",
     notify  => Service['postfix']
   }
 

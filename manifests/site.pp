@@ -20,7 +20,7 @@ node default {
   include ::lib32
   include ::krb5
   include ::kde
-  include ::isc-dhcp
+  include ::iscdhcp
   include ::iproute
   include ::init
   include ::icedtea
@@ -33,26 +33,26 @@ node default {
   include ::acl  
   include ::acpi
   include ::adduser
-  include ::adwaita-icon-theme
-  include ::akonadi-backend-mysql  
+  include ::adwaitaicontheme
+  include ::akonadibackendmysql  
   include ::analog
   include ::ant
   include ::apache
-  include ::apt-pkg
+  include ::aptpkg
   include ::aspell
   include ::at
-  include ::attr
+  include ::attrr
   include ::autoconf
   include ::automake
   include ::autopoint
-  include ::autotools-dev
-  include ::avahi-daemon
+  include ::autotoolsdev
+  include ::avahidaemon
   include ::base
   include ::bash
   include ::bin
   include ::bsd
   include ::bzip2
-  include ::ca-certificates
+  include ::cacertificates
   include ::colord
   include ::console
   include ::cpp
@@ -86,5 +86,5 @@ node default {
   include ::grub
   include ::mysql
 
-  include ::all-other-pkgs
+  include ::allotherpkgs
 }

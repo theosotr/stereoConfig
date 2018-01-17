@@ -1,3 +1,3 @@
-class autotools-dev {
+class autotoolsdev {
   package{'autotools-dev': }
 }

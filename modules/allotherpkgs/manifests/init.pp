@@ -1,4 +1,4 @@
-class all-other-pkgs {
+class allotherpkgs {
   package{'bc': }
   package{'bison': }
   package{'bridge-utils': }

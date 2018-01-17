@@ -47,10 +47,22 @@ class homedir {
         require => User['vitsalis'],
         mode    => '0744',
     }
-    file { "/home/mariai":
+    file { "/home/antonis":
         ensure  => "directory",
-        owner   => "mariai",
-        require => User['mariai'],
+        owner   => "antonis",
+        require => User['antonis'],
+        mode    => '0744',
+    }
+    file { "/home/vasiliki":
+        ensure  => "directory",
+        owner   => "vasiliki",
+        require => User['vasiliki'],
+        mode    => '0744',
+    }
+    file { "/home/thodoras":
+        ensure  => "directory",
+        owner   => "thodoras",
+        require => User['thodoras'],
         mode    => '0744',
     }
 }

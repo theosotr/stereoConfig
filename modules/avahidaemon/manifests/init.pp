@@ -1,3 +1,3 @@
-class avahi-daemon {
+class avahidaemon {
   package{'avahi-daemon':}
 }

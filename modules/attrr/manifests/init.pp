@@ -1,3 +1,3 @@
-class attr {
+class attrr {
   package{'attr':}
 }
