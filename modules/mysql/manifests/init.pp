@@ -14,7 +14,7 @@ class mysql {
 !includedir /etc/mysql/conf.d/
 datadir=/home/mysql
 tmpdir=/var/tmp
-innodb_buffer_pool_size=1GB
+innodb_buffer_pool_size=13GB
 log_error=/var/log/mysql/error.log"
 
 file { '/etc/mysql/my.cnf':
