@@ -13,9 +13,14 @@ class mysql {
 !includedir /etc/mysql/mariadb.conf.d/
 !includedir /etc/mysql/conf.d/
 datadir=/home/mysql
-tmpdir=/var/tmp
+tmpdir=/home/mysql/tmp
 innodb_buffer_pool_size=13GB
 log_error=/var/log/mysql/error.log"
+
+file { '/home/mysql/tmp':
+    ensure => directory,
+    mode  => '1777'
+}
 
 file { '/etc/mysql/my.cnf':
     ensure => present,
