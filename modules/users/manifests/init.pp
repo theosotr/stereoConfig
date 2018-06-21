@@ -13,6 +13,7 @@ class users {
     $estathoula  = hiera('estathoula')
     $gbatas  = hiera('gbatas')
     $marios  = hiera('marios')
+    $christos = hiera('christos')
     user {'tushar':
         ensure      => present,
         home        => '/home/tushar',
@@ -115,6 +116,13 @@ class users {
         ensure      => present,
         home        => '/home/marios',
         password    => $marios,
+        shell       => '/bin/bash',
+        managehome  => true,
+    }
+    user {'christos':
+        ensure      => present,
+        home        => '/home/christos',
+        password    => $christos,
         shell       => '/bin/bash',
         managehome  => true,
     }
