@@ -45,6 +45,15 @@ file { '/etc/systemd/system/mysqld.service':
       line => '/tmp /var/spool /media /home',
   }*/
   
+file { '/lib/systemd/system/mariadb.service':
+    ensure => present,
+    }->
+    file_line { 'protectHome':
+        path => '/lib/systemd/system/mariadb.service',
+        line => 'ProtectHome = false',
+        match => "ProtectHome.*",
+        }
+        
   #Run the command to initialize the mysql server
   #The mysqld.txt file should have a command of the following syntax:
   #SET PASSWORD FOR 'root'@'localhost' = PASSWORD('password');
