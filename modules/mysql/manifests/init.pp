@@ -48,7 +48,7 @@ file { '/etc/systemd/system/mysqld.service':
 file { '/lib/systemd/system/mariadb.service':
     ensure => present,
     }->
-    file_line { 'protectHome':
+    file_line { 'protectHomeFalse':
         path => '/lib/systemd/system/mariadb.service',
         line => 'ProtectHome = false',
         match => "ProtectHome.*",
