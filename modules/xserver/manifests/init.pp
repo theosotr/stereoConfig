@@ -6,7 +6,6 @@ class xserver {
   package{'xserver-xorg-input-evdev': }
   package{'xserver-xorg-input-mouse': }
   package{'xserver-xorg-input-synaptics': }
-  package{'xserver-xorg-input-vmmouse': }
   package{'xserver-xorg-input-wacom': }
   package{'xserver-xorg-video-all': }
   package{'xserver-xorg-video-ati': }

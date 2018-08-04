@@ -273,7 +273,6 @@ class allpackages {
   package{'libboost-chrono1.55.0': }
   package{'libboost-context1.55.0': }
   #package{'libboost-date-time1.49.0': }
-  package{'libboost-date-time1.55.0': }
   #package{'libboost-filesystem1.49.0': }
   package{'libboost-filesystem1.55.0': }
   #package{'libboost-graph-parallel1.49.0': }
@@ -1680,8 +1679,6 @@ class allpackages {
   package{'python3-urllib3': }
   package{'python3-wheel': }
   package{'python3.4': }
-  package{'python3.4-dev': }
-  package{'python3.4-minimal': }
   package{'qemu-system-common': }
   package{'qemu-system-x86': }
   package{'qemu-utils': }

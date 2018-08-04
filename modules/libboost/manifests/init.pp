@@ -2,12 +2,10 @@ class libboost {
   package{'libboost-atomic1.55.0': }
   package{'libboost-chrono1.55.0': }
   package{'libboost-context1.55.0': }
-  package{'libboost-date-time1.55.0': }
   package{'libboost-filesystem1.55.0': }
   package{'libboost-graph1.55.0': }
   package{'libboost-iostreams1.55.0': }
   package{'libboost-locale1.55.0': }
-  package{'libboost-log1.55.0': }
   package{'libboost-math1.55.0': }
   package{'libboost-program-options1.55.0': }
   package{'libboost-python1.55.0': }
@@ -19,5 +17,4 @@ class libboost {
   package{'libboost-test1.55.0': }
   package{'libboost-thread1.55.0': }
   package{'libboost-timer1.55.0': }
-  package{'libboost-wave1.55.0': }
 }

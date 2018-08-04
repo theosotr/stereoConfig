@@ -110,6 +110,4 @@ class python {
   package{'python3-urllib3': }
   package{'python3-wheel': }
   package{'python3.4': }
-  package{'python3.4-dev': }
-  package{'python3.4-minimal': }
 }

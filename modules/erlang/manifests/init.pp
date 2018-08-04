@@ -23,6 +23,5 @@ class erlang{
   package{'erlang-ssl': }
   package{'erlang-syntax-tools': }
   package{'erlang-tools': }
-  package{'erlang-webtool': }
   package{'erlang-xmerl': }
 }

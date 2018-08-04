@@ -1,5 +1,4 @@
 class mysql {
-  package{'mysql-client-5.5': }
   package{'mysql-common': }
   package{'mysql-server': }
 
