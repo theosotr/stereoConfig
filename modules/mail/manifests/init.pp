@@ -5,7 +5,7 @@ class mail {
   file {'/etc/postfix/main.cf':
     require => Package['postfix'],
     ensure  => present,
-    source  => 'puppet:///modules/mail/main.cf',
+    source  => '/etc/puppet/modules/mail/main.cf',
     owner   => root,
     group   => root,
     mode    => "644",
@@ -23,7 +23,7 @@ class mail {
   file {'/etc/postfix/master.cf':
     require => Package['postfix'],
     ensure  => present,
-    source  => 'puppet:///modules/mail/master.cf',
+    source  => '/etc/puppet/modules/mail/master.cf',
     owner   => root,
     group   => root,
     mode    => "644",
