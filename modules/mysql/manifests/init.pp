@@ -2,8 +2,6 @@ class mysql {
   package{'mysql-client-5.5': }
   package{'mysql-common': }
   package{'mysql-server': }
-  package{'mysql-server-5.5': }
-  package{'mysql-server-core-5.5': }
 
   # We want to remove the file and rewrite the configuration from scratch
 #  file { '/etc/mysql/my.cnf':

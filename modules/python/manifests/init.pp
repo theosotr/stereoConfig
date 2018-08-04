@@ -7,10 +7,6 @@ class python {
   package{'libpython2.7-stdlib': }
   package{'libpython3-dev': }
   package{'libpython3-stdlib': }
-  package{'libpython3.4': }
-  package{'libpython3.4-dev': }
-  package{'libpython3.4-minimal': }
-  package{'libpython3.4-stdlib': }
   
   package{'python': }
   package{'python-amqp': }

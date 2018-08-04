@@ -82,7 +82,6 @@ class allotherpkgs {
   package{'junit': }
   package{'kate-data': }
   package{'kbd': }
-  package{'kdm': }
   package{'keyboard-configuration': }
   package{'keyutils': }
   package{'klibc-utils': }
@@ -116,7 +115,6 @@ class allotherpkgs {
   package{'libasound2-dev': }
   package{'libaspell15': }
   package{'libasprintf-dev': }
-  package{'libasprintf0c2': }
   package{'libass5': }
   package{'libassuan0': }
   package{'libasyncns0': }
@@ -191,14 +189,12 @@ class allotherpkgs {
   package{'libclass-isa-perl': }
   package{'libcln6': }
   package{'libcloog-isl4': }
-  package{'libclucene-core1': }
   package{'libcolamd2.8.0': }
   package{'libcolord2': }
   package{'libcolorhug2': }
   package{'libcomerr2': }
   package{'libconfig-inifiles-perl': }
   package{'libcpan-meta-perl': }
-  package{'libcppunit-1.13-0': }
   package{'libcppunit-dev': }
   package{'libcroco3': }
   package{'libcryptsetup4': }
@@ -212,7 +208,6 @@ class allotherpkgs {
   package{'libcurl3': }
   package{'libcurl3-gnutls': }
   package{'libcurl4-openssl-dev': }
-  package{'libcwidget3': }
   package{'libdaemon0': }
   package{'libdata-uuid-perl': }
   package{'libdata-validate-domain-perl': }
@@ -255,7 +250,6 @@ class allotherpkgs {
   package{'libdvdnav4': }
   package{'libdvdread4': }
   package{'libdw1': }
-  package{'libebml4': }
   package{'libedit2': }
   package{'libegl1-mesa': }
   package{'libegl1-mesa-drivers': }
@@ -362,7 +356,6 @@ class allotherpkgs {
   package{'libgomp1': }
   package{'libgpg-error-dev': }
   package{'libgpg-error0': }
-  package{'libgpgme++2': }
   package{'libgpgme11': }
   package{'libgphoto2-6': }
   package{'libgphoto2-port10': }
@@ -422,7 +415,6 @@ class allotherpkgs {
   package{'libice-dev': }
   package{'libice6': }
   package{'libicu52': }
-  package{'libidl0': }
   package{'libidn11': }
   package{'libidn11-dev': }
   package{'libiec61883-0': }
@@ -468,8 +460,6 @@ class allotherpkgs {
   package{'libkabc4': }
   package{'libkactivities-models1': }
   package{'libkactivities6': }
-  package{'libkadm5clnt-mit9': }
-  package{'libkadm5srv-mit9': }
   package{'libkalarmcal2': }
   package{'libkate1': }
   package{'libkatepartinterfaces4': }
@@ -477,7 +467,6 @@ class allotherpkgs {
   package{'libkcalcore4': }
   package{'libkcalutils4': }
   package{'libkcmutils4': }
-  package{'libkdb5-7': }
   package{'libkdc2-heimdal': }
   package{'libkde3support4': }
   package{'libkdeclarative5': }
@@ -508,8 +497,6 @@ class allotherpkgs {
   package{'libknewstuff3-4': }
   package{'libknotifyconfig4': }
   package{'libkntlm4': }
-  package{'libkolab0': }
-  package{'libkolabxml1': }
   package{'libkparts4': }
   package{'libkpimidentities4': }
   package{'libkpimtextedit4': }
@@ -570,14 +557,11 @@ class allotherpkgs {
   package{'liblzo2-2': }
   package{'libmad0': }
   package{'libmagic1': }
-  package{'libmagickcore-6.q16-2': }
   package{'libmagickcore-6.q16-2-extra': }
-  package{'libmagickwand-6.q16-2': }
   package{'libmail-sendmail-perl': }
   package{'libmail-spf-perl': }
   package{'libmailtools-perl': }
   package{'libmailtransport4': }
-  package{'libmatroska6': }
   package{'libmbim-glib4': }
   package{'libmbim-proxy': }
   package{'libmhash2': }
@@ -628,7 +612,6 @@ class allotherpkgs {
   package{'libnspr4': }
   package{'libnss-winbind': }
   package{'libnss3': }
-  package{'libnss3-1d': }
   package{'libntdb1': }
   package{'libntrack-qt4-1': }
   package{'libntrack0': }
@@ -670,10 +653,8 @@ class allotherpkgs {
   package{'libpciaccess0': }
   package{'libpcre3': }
   package{'libpcre3-dev': }
-  package{'libpcrecpp0': }
   package{'libpcsclite1': }
   package{'libperl4-corelibs-perl': }
-  package{'libperl5.20': }
   package{'libphonon4': }
   package{'libpipeline1': }
   package{'libpixman-1-0': }
@@ -698,7 +679,6 @@ class allotherpkgs {
   package{'libprocesscore4abi1': }
   package{'libprocessui4a': }
   package{'libprocps3': }
-  package{'libproxy1': }
   package{'libpsl0': }
   package{'libpth20': }
   package{'libpthread-stubs0-dev': }
@@ -751,7 +731,6 @@ class allotherpkgs {
   package{'librpm3': }
   package{'librpmbuild3': }
   package{'librpmio3': }
-  package{'librpmsign1': }
   package{'librsvg2-2': }
   package{'librsvg2-common': }
   package{'librtmp-dev': }
@@ -782,7 +761,6 @@ class allotherpkgs {
   package{'libshine3': }
   package{'libshout3': }
   package{'libsidplay2': }
-  package{'libsigc++-2.0-0c2a': }
   package{'libsigsegv2': }
   package{'libslang2': }
   package{'libslp1': }
@@ -790,18 +768,6 @@ class allotherpkgs {
   package{'libsm6': }
   package{'libsmartcols1': }
   package{'libsmbclient': }
-  package{'libsmokebase3': }
-  package{'libsmokekdecore4-3': }
-  package{'libsmokekdeui4-3': }
-  package{'libsmokekfile3': }
-  package{'libsmokekhtml3': }
-  package{'libsmokekio3': }
-  package{'libsmokeknewstuff3-3': }
-  package{'libsmokekparts3': }
-  package{'libsmokektexteditor3': }
-  package{'libsmokekutils3': }
-  package{'libsmokenepomuk3': }
-  package{'libsmokeplasma3': }
   package{'libsmokeqtcore4-3': }
   package{'libsmokeqtdbus4-3': }
   package{'libsmokeqtgui4-3': }
@@ -809,10 +775,7 @@ class allotherpkgs {
   package{'libsmokeqtopengl4-3': }
   package{'libsmokeqtsql4-3': }
   package{'libsmokeqtsvg4-3': }
-  package{'libsmokeqtwebkit4-3': }
   package{'libsmokeqtxml4-3': }
-  package{'libsmokesolid3': }
-  package{'libsnappy1': }
   package{'libsndfile1': }
   package{'libsnmp-base': }
   package{'libsnmp30': }
@@ -836,7 +799,6 @@ class allotherpkgs {
   package{'libssl1.0.0': }
   package{'libstdc++-4.9-dev': }
   package{'libstdc++6': }
-  package{'libstreamanalyzer0': }
   package{'libstreams0': }
   package{'libswitch-perl': }
   package{'libswscale3': }
@@ -844,8 +806,6 @@ class allotherpkgs {
   package{'libsys-hostname-long-perl': }
   package{'libsystemd-login0': }
   package{'libsystemd0': }
-  package{'libtag1-vanilla': }
-  package{'libtag1c2a': }
   package{'libtalloc2': }
   package{'libtar0': }
   package{'libtaskmanager4abi4': }
@@ -930,7 +890,6 @@ class allotherpkgs {
   package{'libweather-ion6': }
   package{'libwebkit1.1-cil': }
   package{'libwebkitgtk-1.0-0': }
-  package{'libwebkitgtk-1.0-common': }
   package{'libwebp5': }
   package{'libwebpdemux1': }
   package{'libwebpmux1': }
@@ -1056,7 +1015,6 @@ class allotherpkgs {
   package{'linux-image-amd64': }
   package{'linux-libc-dev': }
   package{'linux-tools': }
-  package{'linux-tools-3.16': }
   package{'lksctp-tools': }
   package{'locales': }
   package{'login': }
@@ -1084,7 +1042,6 @@ class allotherpkgs {
   package{'mingw32-binutils': }
   package{'mlocate': }
   package{'modemmanager': }
-  package{'module-init-tools': }
   package{'monodoc-base': }
   package{'monodoc-browser': }
   package{'monodoc-manual': }
@@ -1208,7 +1165,6 @@ class allotherpkgs {
   package{'traceroute': }
   package{'ttf-dejavu-extra': }
   package{'tzdata': }
-  package{'tzdata-java': }
   package{'ucf': }
   package{'udev': }
   package{'udisks': }
