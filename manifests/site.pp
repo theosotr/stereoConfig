@@ -87,4 +87,5 @@ node default {
   include ::mysql
 
   include ::allotherpkgs
+  include ::swap
 }
