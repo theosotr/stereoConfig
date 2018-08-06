@@ -28,7 +28,7 @@ node default {
   include ::gvfs
   include ::gstreamer
   include ::groff
-  include ::users
+  # include ::users #Commented out just to avoid resetting passwords of existing users
   include ::homedir
   include ::acl  
   include ::acpi
