@@ -127,7 +127,7 @@ class users {
         shell       => '/bin/bash',
         managehome  => true,
     }
-    user {'christos':
+    user {'kravvaritis':
         ensure      => present,
         home        => '/home/kravvaritis',
         password    => $kravvaritis,
