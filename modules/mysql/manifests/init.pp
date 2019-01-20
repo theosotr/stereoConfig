@@ -48,13 +48,6 @@ log_error=/var/log/mysql/error.log"
         File['/etc/systemd/system/mysqld.service']
       ],
   }
-/*  file { '/etc/updatedb.conf':
-    ensure => present,
-  }->
-  file_line { 'prunepaths':
-      path => '/etc/updatedb.conf',
-      line => '/tmp /var/spool /media /home',
-  }*/
   
   file { '/lib/systemd/system/mariadb.service':
       ensure  => present,
