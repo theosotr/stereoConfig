@@ -16,7 +16,9 @@ innodb_log_file_size=256M
 key_buffer_size=5GB
 log_error=/var/log/mysql/error.log"
 
-  file { '/home/mysql/tmp':
+
+  file { [ '/home/mysql',
+           '/home/mysql/tmp' ]:
       ensure => directory,
       mode  => '1777'
   }
