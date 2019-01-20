@@ -65,7 +65,7 @@ log_error=/var/log/mysql/error.log"
       require => [
         Package['mysql-common'],
         Package['mysql-server'],
-        File['/lib/systemd/system/mysqld.service']
+        File['/lib/systemd/system/mariadb.service']
       ],
   }
         
@@ -74,7 +74,7 @@ log_error=/var/log/mysql/error.log"
   #SET PASSWORD FOR 'root'@'localhost' = PASSWORD('password');
   exec { 'mysql_init':
     command => "sudo mysqld --init-file=mysqlpd.txt &",
-    path => '/bin,/sbin,...',
+    path    => '/bin,/sbin,...',
     #the following command to avoid the main command running everytime
     creates => '/home/mysql/isInitTrue.txt',
   }
