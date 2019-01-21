@@ -58,18 +58,18 @@ file { '/lib/systemd/system/mariadb.service':
   #SET PASSWORD FOR 'root'@'localhost' = PASSWORD('password');
   exec { 'mysql_init':
     command => "sudo mysqld --init-file=mysqlpd.txt &",
-    path => '/bin,/sbin,...',
+    path => '/bin:/usr/bin',  
     #the following command to avoid the main command running everytime
     creates => '/home/mysql/isInitTrue.txt',
   }
   exec { 'mysql_install':
     command => "mysql_install_db",
-    path => '/bin,/sbin,...',
+    path => '/bin:/usr/bin',  
     #the following commands to avoid the main command running everytime
     creates => '/home/mysql/isInitTrue.txt',
     }
   exec { 'createFileSuccess':
     command => "touch /home/mysql/isInitTrue.txt",
-    path => '/bin,/sbin,...',  
+    path => '/bin:/usr/bin',  
   }
 }
